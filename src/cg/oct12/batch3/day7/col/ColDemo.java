@@ -19,7 +19,7 @@ public class ColDemo {
 		//collection accepts only object values
 		@SuppressWarnings("rawtypes")
 		ArrayList myList = new ArrayList();
-		
+		//ArrayList
 		System.out.println(myList.size());
 		myList.add(10);
 		myList.add(10);
