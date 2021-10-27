@@ -24,6 +24,7 @@ public class GenDemo {
 		myMarks.add(25);
 
 		System.out.println(myMarks);
+		
 	}
 
 }

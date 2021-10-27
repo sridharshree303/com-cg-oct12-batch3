@@ -54,3 +54,14 @@ public class App {
 //		System.out.println("abstractMethod");
 //	}
 //}
+
+/*
+ * FunIn obj = new FunIn(){"unimplemented methods"};  or 
+ * 
+ * 
+ * */
+
+
+
+
+

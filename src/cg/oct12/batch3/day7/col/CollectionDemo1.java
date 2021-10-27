@@ -23,7 +23,7 @@ public class CollectionDemo1 {
 		
 		for (int i=0;i<a1.size();i++) {         // For loop
 			System.out.println(a1.get(i));
-		
+			
 		}	
 	}
 }
