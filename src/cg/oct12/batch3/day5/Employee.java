@@ -14,7 +14,7 @@ public class Employee {
 
 	public int eid;
 	private String firstName;
-	private double salary = 1000; // if u make private in main class EncapsulationDemo will
+	private double salary ; // if u make private in main class EncapsulationDemo will
 	// get error
 
 	public int getEid() {
