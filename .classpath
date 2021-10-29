@@ -6,8 +6,5 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/kosridha/Desktop/Capgemini/postgresql-jdbc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/kosridha/Desktop/Capgemini/junit-jupiter-api-5.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/kosridha/Desktop/Capgemini/junit-jupiter-engine-5.2.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
