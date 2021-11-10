@@ -16,7 +16,7 @@ public class App2 {
 		System.out.println(obj1.addNums(10, 25));
 
 		FunLn3 obj3 = () -> num;
-		System.out.println(obj3.getNum());
+		System.out.println(obj3.getNum());     // 5 line
 	}
 }
 

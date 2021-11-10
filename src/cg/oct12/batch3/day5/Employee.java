@@ -29,7 +29,7 @@ public class Employee {
 		return firstName;
 	}
 
-	public void setFirstName(String Sridhar) {
+	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
 
