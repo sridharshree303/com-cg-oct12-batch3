@@ -28,7 +28,7 @@ public class Demo {
 	int overs = 21;
 	int remainingOvers = overs;
 	remainingOvers -= 1;
-	System.out.println(remainingOvers);
+	System.out.println(remainingOvers);   //
 	
 	int salary1 = 100, salary2 = 120, mySalary;
 	/* if (salary1 > salary2)
