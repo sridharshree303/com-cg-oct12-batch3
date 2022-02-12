@@ -8,7 +8,7 @@ public class RegexDemo4 {
 		System.out.println(Pattern.matches("[amc]","a"));
 		System.out.println(Pattern.matches("[amn]{3}", "amn"));
 		System.out.println(Pattern.matches("[^amn]{3}", "a"));
-		System.out.println(Pattern.matches("[a-zA-Z]", "a"));
+		System.out.println(Pattern.matches("[a-zA-Z]{2}", "aA"));
 		System.out.println(Pattern.matches("[a-zA-S]{3}", "axT"));
 		System.out.println("------------------------------");
 		//Starts with particular M or S letters

@@ -3,6 +3,7 @@ package cg.oct12.batch3.day8.strm;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamDemo {
@@ -32,7 +33,10 @@ public class StreamDemo {
 		System.out.println("\nUsing filter() to get specified data ");
 
 		Stream<Employee> employeesWithMoreSalary = empStream.filter(e -> e.salary > 19000);
-
+//------------------------------------------------------------------------------------------------------
 		employeesWithMoreSalary.forEach(e -> System.out.println(e));
+		
+		List<Employee> list = empList.stream().collect(Collectors.toList());
+		System.out.println(list);
 	}
 }

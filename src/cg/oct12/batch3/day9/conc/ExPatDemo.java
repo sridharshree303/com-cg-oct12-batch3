@@ -24,16 +24,16 @@ public class ExPatDemo implements Runnable {
 		ExPatDemo exp = new ExPatDemo();
 //
 
-////	        1. Using newSingleThreadExecutor
+//	        1. Using newSingleThreadExecutor
     //       ExecutorService exService = Executors.newSingleThreadExecutor();
 //              // single pool and single thread 
-////        	2. Using newCachedThreadPool
- //     	ExecutorService exService = Executors.newCachedThreadPool();
+//        	2. Using newCachedThreadPool
+   //   	ExecutorService exService = Executors.newCachedThreadPool();
 //               // at a time it will run multiple threads
-////        	3. Using newFixedThreadPool
-   //  	ExecutorService exService = Executors.newFixedThreadPool(3);
-//                    //thread pool that reuses a fixed number of threads 
-////        	4. Using newScheduledThreadPool
+//        	3. Using newFixedThreadPool
+   //	ExecutorService exService = Executors.newFixedThreadPool(3);
+//              //thread pool that reuses a fixed number of threads 
+//       	4. Using newScheduledThreadPool
   //   	ExecutorService exService = Executors.newScheduledThreadPool(2);
      	ScheduledExecutorService exService = Executors.newScheduledThreadPool(2);
 //

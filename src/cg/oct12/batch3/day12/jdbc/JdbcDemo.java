@@ -11,21 +11,19 @@ public class JdbcDemo {
 	public static void main(String[] args) {
 		System.out.println("Start");
 
-		String className = "org.postgresql.Driver";
+		String className = "org.postgresql.Driver";                                     // mandatory
 		String url = "jdbc:postgresql://localhost:5432/DVDRENTAL"; // check this
 		
 		String user = "postgres";
 		String password = "Asdf@123"; // check this
 		
 		String sql = "SELECT * FROM actor";
-		Connection con = null;
-		Statement st = null;
-		ResultSet rs = null;
+		
 		try {
 			Class.forName(className);
-			con = DriverManager.getConnection(url, user, password);
-			st = con.createStatement();
-			rs = st.executeQuery(sql);
+			Connection con = DriverManager.getConnection(url, user, password);
+			Statement st = con.createStatement();
+			ResultSet rs = st.executeQuery(sql);
 			while (rs.next()) {
 				int columnIndex = 1;
 				for (int i = 1; i <= 3; i++) {

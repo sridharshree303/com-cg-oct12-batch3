@@ -12,7 +12,7 @@ public class ColDemo {
 		//arrays have limited functionality
 		//collection have many functionalities
 		int[] arr = new int[5];
-		System.out.println(arr[4]);
+//		System.out.println(arr[4]);
          
 		@SuppressWarnings("unused")
 		RegexDemo reg = new RegexDemo();
@@ -20,7 +20,7 @@ public class ColDemo {
 		@SuppressWarnings("rawtypes")
 		ArrayList myList = new ArrayList();
 		//ArrayList
-		System.out.println(myList.size());
+//		System.out.println(myList.size());
 		myList.add(10);
 		myList.add(10);
 		myList.add(10.5);

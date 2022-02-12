@@ -11,13 +11,14 @@ public class App {
 
 		List<Employee> empList = new ArrayList<>();
 		empList.add(new Employee(101, "Sonu", 10.6));
-		empList.add(new Employee(102, "Monu", 20.6));
-		empList.add(new Employee(103, "Tonu", 40.6));
+		empList.add(new Employee(103, "Monu", 20.6));
+		empList.add(new Employee(102, "Tonu", 40.6));
 		empList.add(new Employee(104, "Ponu", 30.6));
 
 		System.out.println("Before sort");
 
 		for (Employee e : empList) {
+//			System.out.println(e);
 			System.out.println(e.toString());
 		}
 
