@@ -26,7 +26,7 @@ public class App {
 		} 
 		catch (ArithmeticException ae) {
 			System.out.println(ae.getMessage());
-			System.out.println("Do not try to divide by zero.");
+			System.out.println("Do_not_try_to_divide by zero.");
 		} 
 		catch (Exception e) {
 			System.out.println(e.getMessage());

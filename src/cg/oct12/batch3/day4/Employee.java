@@ -31,7 +31,8 @@ public class Employee {
 		System.out.println(emp1.toString() + "\n");
 
 		Employee1 emp3 = new Employee1(103, "Spartans", 12.75);
-		System.out.println(emp3.eid + " - " + emp3.name + " - " + emp3.salary);
+		System.out.println(emp3.eid + " - " + emp3.name + " - " + emp3.salary+"\n");
+		
 		System.out.println(emp1.toString());
 	}
 

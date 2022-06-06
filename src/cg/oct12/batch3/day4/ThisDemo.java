@@ -25,7 +25,8 @@ public class ThisDemo {
 
 	public static void main(String[] args) {
 		ThisDemo th = new ThisDemo();
-		ThisDemo.staticMethod();
+		staticMethod();
+		num1 = 5;
 		th.num2 = 10;
 		th.nonStaticMethod();
 

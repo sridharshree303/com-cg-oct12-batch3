@@ -7,7 +7,8 @@ public class MethodDemo {
 		MethodDemo mobj = new MethodDemo();
 		System.out.println("Start");
 		hello();
-		hi();
+		mobj.hi();
+		MethodDemo.hello();
 		System.out.println("End");
 		mobj.get();
 	}
@@ -18,7 +19,7 @@ public class MethodDemo {
 		System.out.println("Hi sridhar");
 	}
 
-	static void hi() {
+	public void hi() {
 		System.out.println("Hello");
 	}
 

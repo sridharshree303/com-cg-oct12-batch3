@@ -2,7 +2,8 @@ package vaman2;
 
 public class Program {
 	static {
-		System.out.println("Staic1 block"); }
+		System.out.println("Staic1 block"); 
+		}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
